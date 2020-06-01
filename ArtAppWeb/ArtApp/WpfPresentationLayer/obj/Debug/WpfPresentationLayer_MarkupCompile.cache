@@ -1,0 +1,20 @@
+﻿WpfPresentationLayer
+
+
+winexe
+C#
+.cs
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\obj\Debug\
+WpfPresentationLayer
+none
+false
+DEBUG;TRACE
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\App.xaml
+8688139983
+
+12743379155
+19-1719690075
+frmClient.xaml;frmPiece.xaml;frmProject.xaml;frmReference.xaml;frmReferencesQuery.xaml;frmUpdatePassword.xaml;frmUser.xaml;MainWindow.xaml;
+
+False
+

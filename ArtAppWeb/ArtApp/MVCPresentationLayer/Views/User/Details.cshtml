@@ -1,0 +1,89 @@
+﻿@model DataObjects.User
+
+    <h2>@ViewBag.Title</h2>
+
+    <div>
+        <h4>User</h4>
+        <hr />
+        <dl class="dl-horizontal">
+
+            <dt>
+                @Html.DisplayNameFor(model => model.UserID)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.UserID)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.PhoneNumber)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Active)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Active)
+            </dd>
+
+            <dt>Assigned Skills:</dt>
+
+            <dd>
+                <ul>
+                    @foreach (string s in ViewBag.Skills)
+                    {
+                        <li>
+                            <strong>
+                                @s  @Html.ActionLink("Remove Skill", "RemoveSkill",
+                           new { id = Model.UserID, Skill = s })
+                            </strong>
+                            
+                        </li>
+                    }
+                </ul>
+            </dd>
+
+            <dt>Unassigned Skills:</dt>
+
+            <dd>
+                <ul>
+                    @foreach (string s in ViewBag.NoSkills)
+                    {
+                        <li>
+                            <strong>
+                                @s  @Html.ActionLink("Add Skill", "AddSkill",
+                           new { id = Model.UserID, Skill = s })
+                            </strong>
+                        </li>
+                    }
+                </ul>
+            </dd>
+
+
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.UserID }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>

@@ -1,0 +1,195 @@
+F:\.net 2\BicicleAppAM\WpfPresentationLayer\bin\Debug\WpfPresentationLayer.exe.config
+F:\.net 2\BicicleAppAM\WpfPresentationLayer\bin\Debug\WpfPresentationLayer.exe
+F:\.net 2\BicicleAppAM\WpfPresentationLayer\bin\Debug\WpfPresentationLayer.pdb
+F:\.net 2\BicicleAppAM\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.csprojAssemblyReference.cache
+F:\.net 2\BicicleAppAM\WpfPresentationLayer\obj\Debug\MainWindow.g.cs
+F:\.net 2\BicicleAppAM\WpfPresentationLayer\obj\Debug\App.g.cs
+F:\.net 2\BicicleAppAM\WpfPresentationLayer\obj\Debug\WpfPresentationLayer_MarkupCompile.cache
+F:\.net 2\BicicleAppAM\WpfPresentationLayer\obj\Debug\WpfPresentationLayer_MarkupCompile.lref
+F:\.net 2\BicicleAppAM\WpfPresentationLayer\obj\Debug\MainWindow.baml
+F:\.net 2\BicicleAppAM\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.g.resources
+F:\.net 2\BicicleAppAM\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.Properties.Resources.resources
+F:\.net 2\BicicleAppAM\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.csproj.GenerateResource.cache
+F:\.net 2\BicicleAppAM\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.csproj.CoreCompileInputs.cache
+F:\.net 2\BicicleAppAM\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.exe
+F:\.net 2\BicicleAppAM\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.pdb
+F:\.net 2\BicicleAppAM\WpfPresentationLayer\bin\Debug\DataObjects.dll
+F:\.net 2\BicicleAppAM\WpfPresentationLayer\bin\Debug\LogicLayer.dll
+F:\.net 2\BicicleAppAM\WpfPresentationLayer\bin\Debug\DataObjects.pdb
+F:\.net 2\BicicleAppAM\WpfPresentationLayer\bin\Debug\LogicLayer.pdb
+F:\.net 2\BicicleAppAM\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.csproj.CopyComplete
+G:\.net 2\BicicleAppAM\WpfPresentationLayer\bin\Debug\WpfPresentationLayer.exe.config
+G:\.net 2\BicicleAppAM\WpfPresentationLayer\bin\Debug\WpfPresentationLayer.exe
+G:\.net 2\BicicleAppAM\WpfPresentationLayer\bin\Debug\WpfPresentationLayer.pdb
+G:\.net 2\BicicleAppAM\WpfPresentationLayer\bin\Debug\DataObjects.dll
+G:\.net 2\BicicleAppAM\WpfPresentationLayer\bin\Debug\LogicLayer.dll
+G:\.net 2\BicicleAppAM\WpfPresentationLayer\bin\Debug\DataObjects.pdb
+G:\.net 2\BicicleAppAM\WpfPresentationLayer\bin\Debug\LogicLayer.pdb
+G:\.net 2\BicicleAppAM\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.csprojAssemblyReference.cache
+G:\.net 2\BicicleAppAM\WpfPresentationLayer\obj\Debug\MainWindow.g.cs
+G:\.net 2\BicicleAppAM\WpfPresentationLayer\obj\Debug\App.g.cs
+G:\.net 2\BicicleAppAM\WpfPresentationLayer\obj\Debug\WpfPresentationLayer_MarkupCompile.cache
+G:\.net 2\BicicleAppAM\WpfPresentationLayer\obj\Debug\WpfPresentationLayer_MarkupCompile.lref
+G:\.net 2\BicicleAppAM\WpfPresentationLayer\obj\Debug\MainWindow.baml
+G:\.net 2\BicicleAppAM\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.g.resources
+G:\.net 2\BicicleAppAM\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.Properties.Resources.resources
+G:\.net 2\BicicleAppAM\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.csproj.GenerateResource.cache
+G:\.net 2\BicicleAppAM\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.csproj.CoreCompileInputs.cache
+G:\.net 2\BicicleAppAM\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.csproj.CopyComplete
+G:\.net 2\BicicleAppAM\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.exe
+G:\.net 2\BicicleAppAM\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.pdb
+G:\.net 2\BicicleAppAM\WpfPresentationLayer\bin\Debug\DataAccessLayer.dll
+G:\.net 2\BicicleAppAM\WpfPresentationLayer\bin\Debug\DataAccessLayer.pdb
+F:\.net 2\BicicleAppAM\WpfPresentationLayer\bin\Debug\DataAccessLayer.dll
+F:\.net 2\BicicleAppAM\WpfPresentationLayer\bin\Debug\DataAccessLayer.pdb
+F:\.net 2\BicicleAppAM\WpfPresentationLayer\obj\Debug\frmUpdatePassword.g.cs
+F:\.net 2\BicicleAppAM\WpfPresentationLayer\obj\Debug\frmUpdatePassword.baml
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.csprojAssemblyReference.cache
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmUpdatePassword.g.cs
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\MainWindow.g.cs
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\App.g.cs
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer_MarkupCompile.cache
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer_MarkupCompile.lref
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.exe
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.pdb
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\bin\Debug\WpfPresentationLayer.exe.config
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\bin\Debug\WpfPresentationLayer.exe
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\bin\Debug\WpfPresentationLayer.pdb
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\bin\Debug\DataObjects.dll
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\bin\Debug\LogicLayer.dll
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\bin\Debug\DataAccessLayer.dll
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\bin\Debug\DataObjects.pdb
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\bin\Debug\LogicLayer.pdb
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\bin\Debug\DataAccessLayer.pdb
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmUpdatePassword.baml
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\MainWindow.baml
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.g.resources
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.Properties.Resources.resources
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.csproj.GenerateResource.cache
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.csproj.CoreCompileInputs.cache
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.csproj.CopyComplete
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmReferencesQuery.g.cs
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmReferencesQuery.baml
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\bin\Debug\WpfPresentationLayer.exe.config
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\bin\Debug\WpfPresentationLayer.exe
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\bin\Debug\WpfPresentationLayer.pdb
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\bin\Debug\DataObjects.dll
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\bin\Debug\LogicLayer.dll
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\bin\Debug\DataAccessLayer.dll
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\bin\Debug\DataObjects.pdb
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\bin\Debug\LogicLayer.pdb
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\bin\Debug\DataAccessLayer.pdb
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.csprojAssemblyReference.cache
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmReferencesQuery.g.cs
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmUpdatePassword.g.cs
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmUser.g.cs
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\MainWindow.g.cs
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\App.g.cs
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer_MarkupCompile.cache
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer_MarkupCompile.lref
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmReferencesQuery.baml
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmUpdatePassword.baml
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmUser.baml
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\MainWindow.baml
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.g.resources
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.Properties.Resources.resources
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.csproj.GenerateResource.cache
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.csproj.CoreCompileInputs.cache
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.csproj.CopyComplete
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.exe
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.pdb
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmPiece.g.cs
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmProject.g.cs
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmPiece.baml
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmProject.baml
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmClient.g.cs
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmClient.baml
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmClient.g.cs
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmPiece.g.cs
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmProject.g.cs
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmUser.g.cs
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmClient.baml
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmPiece.baml
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmProject.baml
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmUser.baml
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmReference.g.cs
+G:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmReference.baml
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmReference.g.cs
+F:\.net 2\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmReference.baml
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\bin\Debug\WpfPresentationLayer.exe.config
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\bin\Debug\WpfPresentationLayer.exe
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\bin\Debug\WpfPresentationLayer.pdb
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\bin\Debug\DataObjects.dll
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\bin\Debug\LogicLayer.dll
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\bin\Debug\DataAccessLayer.dll
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\bin\Debug\DataObjects.pdb
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\bin\Debug\LogicLayer.pdb
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\bin\Debug\DataAccessLayer.pdb
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.csprojAssemblyReference.cache
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmClient.g.cs
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmPiece.g.cs
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmProject.g.cs
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmReference.g.cs
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmReferencesQuery.g.cs
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmUpdatePassword.g.cs
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmUser.g.cs
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\obj\Debug\MainWindow.g.cs
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\obj\Debug\App.g.cs
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer_MarkupCompile.cache
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer_MarkupCompile.lref
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmClient.baml
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmPiece.baml
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmProject.baml
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmReference.baml
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmReferencesQuery.baml
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmUpdatePassword.baml
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\obj\Debug\frmUser.baml
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\obj\Debug\MainWindow.baml
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.g.resources
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.Properties.Resources.resources
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.csproj.GenerateResource.cache
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.csproj.CopyComplete
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.exe
+F:\.net 2\Final (5)\Final\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.pdb
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\bin\Debug\WpfPresentationLayer.exe.config
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\bin\Debug\WpfPresentationLayer.exe
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\bin\Debug\WpfPresentationLayer.pdb
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\bin\Debug\DataObjects.dll
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\bin\Debug\LogicLayer.dll
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\bin\Debug\DataAccessLayer.dll
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\bin\Debug\DataObjects.pdb
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\bin\Debug\LogicLayer.pdb
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\bin\Debug\DataAccessLayer.pdb
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.csprojAssemblyReference.cache
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\obj\Debug\frmClient.g.cs
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\obj\Debug\frmPiece.g.cs
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\obj\Debug\frmProject.g.cs
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\obj\Debug\frmReference.g.cs
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\obj\Debug\frmReferencesQuery.g.cs
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\obj\Debug\frmUpdatePassword.g.cs
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\obj\Debug\frmUser.g.cs
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\obj\Debug\MainWindow.g.cs
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\obj\Debug\App.g.cs
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer_MarkupCompile.cache
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer_MarkupCompile.lref
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\obj\Debug\frmClient.baml
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\obj\Debug\frmPiece.baml
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\obj\Debug\frmProject.baml
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\obj\Debug\frmReference.baml
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\obj\Debug\frmReferencesQuery.baml
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\obj\Debug\frmUpdatePassword.baml
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\obj\Debug\frmUser.baml
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\obj\Debug\MainWindow.baml
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.g.resources
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.Properties.Resources.resources
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.csproj.GenerateResource.cache
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.csproj.CopyComplete
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.exe
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\obj\Debug\WpfPresentationLayer.pdb
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\bin\Debug\Microsoft.Owin.dll
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\bin\Debug\Microsoft.Owin.Security.dll
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\bin\Debug\Owin.dll
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\bin\Debug\Microsoft.Owin.xml
+F:\.net 3\ArtAppWeb\ArtApp\WpfPresentationLayer\bin\Debug\Microsoft.Owin.Security.xml

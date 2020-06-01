@@ -1,0 +1,72 @@
+﻿@model DataObjects.Piece
+
+
+
+<h2>@ViewBag.Title</h2>
+
+<div>
+        <h4>Piece</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.ProjectID)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.ProjectID)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.UserID)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.UserID)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Description)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Description)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Stage)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Stage)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Complete)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Complete)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Compensation)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Compensation)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.CompensatedStatus)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.CompensatedStatus)
+            </dd>
+    
+        </dl>
+    </div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PieceID }) |
+    @Html.ActionLink("Back to List", "Index", new { id = Model.ProjectID })
+</p>

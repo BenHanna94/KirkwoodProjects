@@ -1,0 +1,47 @@
+﻿@model IEnumerable<DataObjects.Reference>
+
+<h2>@ViewBag.Title</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ReferenceName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ClientID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FileLocation)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ReferenceName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ClientID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FileLocation)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ReferenceID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ReferenceID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ReferenceID })
+        </td>
+    </tr>
+}
+
+</table>

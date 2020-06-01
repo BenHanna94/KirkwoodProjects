@@ -1,0 +1,57 @@
+﻿@model DataObjects.Reference
+
+<h2>@ViewBag.Title</h2>
+
+<div>
+    <h4>Reference</h4>
+    <hr />
+    <dl class="dl-horizontal">
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ReferenceID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ReferenceID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ReferenceName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ReferenceName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ClientID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ClientID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FileLocation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FileLocation)
+        </dd>
+
+    </dl>
+</div>
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ReferenceID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+

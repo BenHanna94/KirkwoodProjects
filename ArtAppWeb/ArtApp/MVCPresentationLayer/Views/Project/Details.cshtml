@@ -1,0 +1,59 @@
+﻿@model DataObjects.Project
+
+
+
+    <h2>@ViewBag.Title</h2>
+
+
+    <div>
+        <h4>Project</h4>
+        <hr />
+        <dl class="dl-horizontal">
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ProjectID)
+            </dt>
+
+            <dd>
+               <p id="ProjectID">@(Model.ProjectID)</p>
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Type)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Type)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Description)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Description)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Complete)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Complete)
+            </dd>
+
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.ProjectID }) |
+        @Html.ActionLink("View Pieces", "Index", "Piece", new { id = Model.ProjectID }, htmlAttributes: new { id = "ProjectID" }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>

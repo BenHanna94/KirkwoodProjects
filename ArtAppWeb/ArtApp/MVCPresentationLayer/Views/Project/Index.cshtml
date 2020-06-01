@@ -1,0 +1,67 @@
+﻿@model IEnumerable<DataObjects.Project>
+
+    
+<h2>@ViewBag.Title</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<!--
+    I dont understand how these two methods below work, but they just do apparently.
+    I assume it's because the ID is stored in the URL, 
+    so the only thing that needs to change is the value of complete because the ID is passed automatically.'
+    -->
+
+<p>
+    @Html.ActionLink("Refresh Complete", "Index", new { complete = true })
+</p>
+<p>
+    @Html.ActionLink("Refresh Incomplete", "Index", new { complete = false })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ProjectID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Type)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Complete)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProjectID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Type)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Complete)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ProjectID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ProjectID }) |
+                @Html.ActionLink("Toggle Complete", "Delete", new { id = item.ProjectID })
+            </td>
+        </tr>
+}
+
+</table>
