@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+    <link rel="stylesheet" href="css/kirkwoodTheme.min.css" />
+    <link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
+    
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <cxzlink href="css/mobile.css" rel="stylesheet" />
+    <link rel="stylesheet" href="http://cdn.rawgit.com/arschmitz/jquery-mobile-datepicker-wrapper/v0.1.1/jquery.mobile.datepicker.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="http://cdn.rawgit.com/jquery/jquery-ui/1.10.4/ui/jquery.ui.datepicker.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+    <script id="mobile-datepicker" src="http://cdn.rawgit.com/arschmitz/jquery-mobile-datepicker-wrapper/v0.1.1/jquery.mobile.datepicker.js"></script>
+    <script src="js/mobile.js"></script>
+</head>
+
+<body>
+    <!-- Page 1 -->
+    <div data-role="page" id="page1" data-theme="b">
+        <div data-role="header" data-position="fixed">
+            <img src="images/header.PNG" class="center">
+            <h1>Home</h1>
+        </div>
+
+        <div data-role="content">
+            <h1>Home</h1>
+            
+            <p>The employment application page is disbled by default on mobile. Access it by loading the desktop page.</p>
+            
+            <p>You may view open positions on the next page, or if you've already submitted an application, you may view the status of it on the page after.</p>
+        </div>
+        <div data-role="footer" data-position="fixed" data-class="ui-bar">
+            <a href="#page2" data-role="button" data-icon="arrow-r" data-iconpos="right">Page 2</a>
+
+        </div>
+    </div>
+
+
+    <!-- Page 2 -->
+    <div data-role="page" id="page2" data-theme="b">
+        <div data-role="header" data-position="fixed">
+            <img src="images/header.PNG" class="center">
+            <h1>Open Positions</h1>
+        </div>
+        <div data-role="content">
+            <div data-role="collapsible-set">
+                <div data-role="collapsible">
+                    <h3>Programming Instructor</h3>
+                    <p>Have a nack for coding and strong patience when dealing with dumb kids just out of high school? Then this is the job for YOU!</p>
+                </div>
+                <div data-role="collapsible">
+                    <h3>Web Manager</h3>
+                    <p>Command Kirkwood's strong online presence. Manage the people that develop our website.</p>
+                    <p>Make sure nothings's too on brand, though. Inconsistant web UI is a staple of Kirkwood!</p>
+                </div>
+                <div data-role="collapsible">
+                    <h3>Janitor</h3>
+                    <p>Clean stuff! Refill the vending machines!</p>
+                    <p>That's it.</p>
+                </div>
+                <div data-role="collapsible">
+                    <h3>Campus Security</h3>
+                    <p>We dont know why this is open, nothing ever happens here.</p>
+                    <p>Apply?</p>
+                </div>
+            </div>
+        </div>
+            <div data-role="footer" data-position="fixed" data-class="ui-bar">
+            <a href="#page1" data-role="button" data-icon="arrow-l" data-iconpos="left">Page 1</a>
+            <a href="#page3" data-role="button" data-icon="arrow-r" data-iconpos="right">Page 3</a>
+			</div>
+		</div>		
+	
+    
+        <!-- Page 3 -->
+    <div data-role="page" id="page3" data-theme="b">
+        <div data-role="header" data-position="fixed">
+            <img src="images/header.PNG" class="center">
+            <h1>Application Checker</h1>
+        </div>
+        <div data-role="content">
+            
+            <p>Check your status by inputting your email and the date you submitted the applicaton.</p>
+            
+            <form>
+                <label for="email">Email</label>
+                <input type="email" data-clear-btn="true" name="email" id="email" value="">
+            </form>
+            <label for="dateChecker">Date</label>
+            <input type="text" name="dateChecker" data-role="date">
+            
+            <a href="#submit" data-role="button" data-icon="search" data-iconpos="left">Check</a>
+            
+        </div>
+            <div data-role="footer" data-position="fixed" data-class="ui-bar">
+            <a href="#page2" data-role="button" data-icon="arrow-l" data-iconpos="left">Page 2</a>
+			</div>
+    </div>
+    
+    <!-- Page 4 -->
+    <div data-role="page" id="submit" data-theme="b">
+        <div data-role="header" data-position="fixed">
+            <img src="images/header.PNG" class="center">
+            <h1>Search Results</h1>
+        </div>
+        <div data-role="content">
+            <h1 id="error">ERROR:</h1>
+            <p>Application not found.</p>
+        </div>
+            <div data-role="footer" data-position="fixed" data-class="ui-bar">
+            <a href="#page1" data-role="button" data-icon="arrow-l" data-iconpos="left">Home</a>
+			</div>
+		</div>		
+		
+	</body>
+</html>

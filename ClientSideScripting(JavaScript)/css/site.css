@@ -1,0 +1,104 @@
+
+
+    body{
+		font-family: "Trebuchet MS", sans-serif;
+		margin: 50px;
+	}
+	.demoHeaders {
+		margin-top: 2em;
+	}
+	#dialog-link {
+		padding: .4em 1em .4em 20px;
+		text-decoration: none;
+		position: relative;
+	}
+	#dialog-link span.ui-icon {
+		margin: 0 5px 0 0;
+		position: absolute;
+		left: .2em;
+		top: 50%;
+		margin-top: -8px;
+	}
+	#icons {
+		margin: 0;
+		padding: 0;
+	}
+	#icons li {
+		margin: 2px;
+		position: relative;
+		padding: 4px 0;
+		cursor: pointer;
+		float: left;
+		list-style: none;
+	}
+	#icons span.ui-icon {
+		float: left;
+		margin: 0 4px;
+	}
+	.fakewindowcontain .ui-widget-overlay {
+		position: absolute;
+	}
+	select {
+		width: 200px;
+	}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+div {
+    margin: .5em;
+    
+}
+
+input {
+    margin-left: .25em;
+    margin-right: .25em;
+}
+
+label {
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+    margin: .5em;
+    color: #005399;
+}
+
+form label.error {
+    font-size: 0.8em;
+    color: #f00;
+    font-weight: bold;
+    display: block;
+    margin-left: 215px;
+}
+
+form input.error, #signup select.error {
+    background: #ffa9b8;
+    border: 1px solid red;
+}
+
+#showMore1 {
+    float:right;
+}
+
+#showMore2 {
+    float:right;
+}
+
+#employer1 {
+    margin: 0;
+}
+
+h3 {color: #005399;}
+
+fieldset {
+    border: 1px solid #005399; 
+
+}
+
+#tabs {
+    margin:auto;
+    border-color: #005399;
+    width: 900px;
+}

@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="css/jquery-ui.css" rel="stylesheet" />
+		<link href="css/site.css" rel="stylesheet" />
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery-ui.js"></script>
+		<script src="js/jquery.validate.js"></script>
+		<script src="js/final.js"></script>
+	</head>
+    <!-- Based on https://www.kirkwood.edu/apply -->
+	<body>
+        <header>
+         <img src="images/header.PNG" class="center">
+        </header>
+        <img src="images/admissions_apply.jpg" class="center">
+		<div id="tabs">
+			<ul>
+				<li><a href="#personal">Personal Information</a></li>
+				<li><a href="#employment">Employment History</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#other">Other Information</a></li>
+				<li><a href="#submit">Submit Application</a></li>
+			</ul>
+			<div id="personal" class="tab">
+		
+				<form id="testForm0">
+				<fieldset>
+					
+					<div>
+						<label for="name" class="label">Name</label>
+						<input name="name" type="text" id="name" size="36" required title="Enter your name.">
+					</div>
+					<div>
+						<label for="address" class="label">Address</label>
+						<input name="address" type="text" id="address" size="36" required title="Enter your street address.">
+					</div>
+					<div>
+						<label for="city" class="label">City</label>
+						<input name="city" type="text" id="city" size="36" required title="Enter your city.">
+					</div>
+					<div>
+						<label for="state" class="label">State/Province</label>
+						<input name="state" type="text" id="state" size="36" required title="Enter your state." maxlength="2">
+					</div>
+					<div>
+						<label for="zip" class="label">Zip Code</label>
+						<input name="zip" type="text" id="zip" size="36" required title="Enter your zip code." maxlength="5">
+					</div>
+                        
+                    <div>
+                        <label for="phone" class="label">Phone Number</label>
+                        <input name="phone" type="tel" id="phone" required title="Enter your phone number." pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="15">
+                    </div>
+                        
+                    <div>
+                        <label for="email" class="label">Email Address</label>
+                        <input type="text" name="email" id="email" size="36" required title="Enter your email address.">
+                    </div>
+                        
+                    <div>
+                        <label for="ssn" class="label">Social Security</label>
+                        <input type="text" name="ssn" id="ssn" size="36" required title="....." maxlength="9">
+                    </div>
+                        
+                    <div>
+                        <label for="dateAvailable" class="label">Date Available</label>
+                        <input type="text" name="dateAvailable" id="dateAvailable" class="datePicker">
+                    </div>
+                    <div>
+                        <label for="salary" class="label">Desired Salary</label>
+                        <input type="text" name="salary" id="salary" >
+                    </div>
+					
+                    <div>
+                        <label for="position" class="label">Position Applied for</label>
+                        <select name="position" id="position">
+                            <option>Instructor</option>
+                            <option>Information Technology</option>
+                            <option>Administrative</option>
+                            <option>Security</option>
+                            <option>Cook</option>
+                            <option>Janitorial</option>
+
+                        </select>
+                    </div>
+                        
+                    <div>
+                        <div class="radioset">
+                            <p>Are you a citizen of the United States?</p>
+                            <label for="citizen1">Yes</label>
+                            <input type="radio" name="citizen" id="citizen1" required title="Required">
+                            <label for="citizen2">No</label>
+                            <input type="radio" name="citizen" id="citizen2" required title="Required">
+                        </div>
+
+                        <div id="hideme1">
+                            <div class="radioset">
+                                <p>If no, are you authorized to work in the US?</p>
+                                <label for="authorized1">Yes</label>
+                                <input type="radio" name="authorized" id="authorized1">
+                                <label for="authorized2">No</label>
+                                <input type="radio" name="authorized" id="authorized2">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="radioset">
+                            <p>Have you ever worked for this company?</p>
+                            <label for="worked1">Yes</label>
+                            <input type="radio" name="worked" id="worked1" required title="Required">
+                            <label for="worked2">No</label>
+                            <input type="radio" name="worked" id="worked2" required title="Required">
+                        </div>
+
+                        <div id="hideme2">
+                            <label for="workedYes" class="label">If yes, when? </label>
+                            <input type="text" name="workedYes" id="workedYes" size="36">
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="radioset">
+                            <p>Have you ever been convicted of a felony?</p>
+                            <label for="felony1">Yes</label>
+                            <input type="radio" name="felony" id="felony1" required title="Required">
+                            <label for="felony2">No</label>
+                            <input type="radio" name="felony" id="felony2" required title="Required">
+                        </div>
+
+                        <div id="hideme3">
+                            <label for="felonyYes" class="label">If yes, explain: </label>
+                            <textarea type="text" name="felonyYes" id="felonyYes" size="36">Enter here...</textarea>
+                        </div>
+                    </div>
+				</fieldset>
+					<input type="button" value="Validate" id="tab0submit" />
+				</form>
+			
+			</div>
+			<div id="employment" class="tab">
+                
+				<form id="testForm1">
+                    
+					<fieldset>
+                        <input type="button" value="Toggle More" id="showMore1" />
+                        <div id="employer1">
+                            <div>
+                                <label for="employerName1" class="label">Company</label>
+                                <input name="employerName" type="text" id="employerName1" size="36">
+                            </div>
+                            <div>
+                                <label for="employerPhone1" class="label">Phone</label>
+                                <input name="employerPhone" type="text" id="employerPhone1" maxlength="15">
+                            </div>
+                            <div>
+                                <label for="employerAddress1" class="label">Address</label>
+                                <input name="address" type="text" id="employerAddress1" size="36">
+                            </div>
+                            <div>
+                                <label for="supervisor1" class="label">Supervisor</label>
+                                <input name="supervisor" type="text" id="supervisor1" size="36">
+                            </div>
+                            <div>
+                                <label for="title1" class="label">Job Title</label>
+                                <input name="title" type="text" id="title1" size="36">
+                            </div>
+                            <div>
+                                <label for="salary1" class="label">Starting salary</label>
+                                <input name="salary" type="text" id="salary1">
+                                </div>
+                                <div>
+                                <label for="salary2" class="label">Ending salary</label>
+                                <input name="salary" type="text" id="salary2">
+                            </div>
+                            <div>
+                                <div class="radioset">
+                                <p>May we contact your supervisor for a reference?</p>
+                                <label for="contact1">Yes</label>
+                                <input type="radio" name="contact1" id="contact1">
+                                <label for="contact2">No</label>
+                                <input type="radio" name="contact1" id="contact2">
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div id="employer2">
+                            <div>
+                                <label for="employerName2" class="label">Company</label>
+                                <input name="employerName" type="text" id="employerName2" size="36">
+                            </div>
+                            <div>
+                                <label for="employerPhone2" class="label">Phone</label>
+                                <input name="employerPhone" type="text" id="employerPhone2" maxlength="15">
+                            </div>
+                            <div>
+                                <label for="employerAddress2" class="label">Address</label>
+                                <input name="address" type="text" id="employerAddress2" size="36">
+                            </div>
+                            <div>
+                                <label for="supervisor2" class="label">Supervisor</label>
+                                <input name="supervisor" type="text" id="supervisor2" size="36">
+                            </div>
+                            <div>
+                                <label for="title2" class="label">Job Title</label>
+                                <input name="title" type="text" id="title2" size="36">
+                            </div>
+                            <div>
+                                <label for="salary3" class="label">Starting salary</label>
+                                <input name="salary" type="text" id="salary3">
+                                </div>
+                                <div>
+                                <label for="salary4" class="label">Ending salary</label>
+                                <input name="salary" type="text" id="salary4">
+                            </div>
+                            <div>
+                                <div class="radioset">
+                                <p>May we contact your supervisor for a reference?</p>
+                                <label for="contact3">Yes</label>
+                                <input type="radio" name="contact2" id="contact3">
+                                <label for="contact4">No</label>
+                                <input type="radio" name="contact2" id="contact4" >
+                                </div>
+                            </div>
+                        </div>
+                        <div id="employer3">
+                            <div>
+                                <label for="employerName3" class="label">Company</label>
+                                <input name="employerName" type="text" id="employerName3" size="36">
+                            </div>
+                            <div>
+                                <label for="employerPhone3" class="label">Phone</label>
+                                <input name="employerPhone" type="text" id="employerPhone3" maxlength="15">
+                            </div>
+                            <div>
+                                <label for="employerAddress3" class="label">Address</label>
+                                <input name="address" type="text" id="employerAddress3" size="36">
+                            </div>
+                            <div>
+                                <label for="supervisor3" class="label">Supervisor</label>
+                                <input name="supervisor" type="text" id="supervisor3" size="36">
+                            </div>
+                            <div>
+                                <label for="title3" class="label">Job Title</label>
+                                <input name="title" type="text" id="title3" size="36">
+                            </div>
+                            <div>
+                                <label for="salary5" class="label">Starting salary</label>
+                                <input name="salary" type="text" id="salary5">
+                                </div>
+                                <div>
+                                <label for="salary6" class="label">Ending salary</label>
+                                <input name="salary" type="text" id="salary6">
+                            </div>
+                            <div>
+                                <div class="radioset">
+                                <p>May we contact your supervisor for a reference?</p>
+                                <label for="contact5">Yes</label>
+                                <input type="radio" name="contact3" id="contact5">
+                                <label for="contact6">No</label>
+                                <input type="radio" name="contact3" id="contact6">
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+					<input type="button" value="Validate" id="tab1submit" />
+				</form>			
+			
+			</div>
+			<div id="education" class="tab">
+				<form id="testForm2">
+					<fieldset>
+                            <div>
+                                <label for="highSchoolName" class="label">High School</label>
+                                <input name="highSchoolName" type="text" id="highSchoolName" size="36">
+                            </div>
+                            <div>
+                                <label for="highSchoolAddress" class="label">Address</label>
+                                <input name="highSchoolAddress" type="text" id="highSchoolAddress" size="36">
+                            </div>
+                            <div>
+                                <label for="highSchoolFrom" class="label">From</label>
+                                <input type="text" name="highSchoolFrom" id="highSchoolFrom" class="datePicker">
+                            </div>
+                            <div>
+                                <label for="highSchoolTo" class="label to">To</label>
+                                <input type="text" name="highSchoolTo" id="highSchoolTo" class="datePicker">
+                            </div>
+                            <div class="radioset">
+                                <p>Did you graduate?</p>
+                                <label for="hsGraduate1">Yes</label>
+                                <input type="radio" name="hsGraduate" id="hsGraduate1" required title="Required">
+                                <label for="hsGraduate2">No</label>
+                                <input type="radio" name="hsGraduate" id="hsGraduate2" required title="Required">
+                            </div>
+                            <div>
+                                <label for="collegeName" class="label">College</label>
+                                <input name="collegeName" type="text" id="collegeName" size="36">
+                            </div>
+                            <div>
+                                <label for="collegeAddress" class="label">Address</label>
+                                <input name="collegeAddress" type="text" id="collegeAddress" size="36">
+                            </div>
+                            <div>
+                                <label for="collegeFrom" class="label">From</label>
+                                <input type="text" name="collegeFrom" id="collegeFrom" class="datePicker">
+                            </div>
+                            <div>
+                                <label for="collegeTo" class="label to">To</label>
+                                <input type="text" name="collegeTo" id="collegeTo" class="datePicker">
+                            </div>
+                            <div class="radioset">
+                                <p>Did you graduate?</p>
+                                <label for="collegeGraduate1">Yes</label>
+                                <input type="radio" name="collegeGraduate" id="collegeGraduate1" required title="Required">
+                                <label for="collegeGraduate2">No</label>
+                                <input type="radio" name="collegeGraduate" id="collegeGraduate2" required title="Required">
+                            </div>
+                            <div>
+                                <label for="otherName" class="label">Other</label>
+                                <input name="otherName" type="text" id="otherName" size="36">
+                            </div>
+                            <div>
+                                <label for="otherAddress" class="label">Address</label>
+                                <input name="otherAddress" type="text" id="otherAddress" size="36">
+                            </div>
+                            <div>
+                                <label for="otherFrom" class="label">From</label>
+                                <input type="text" name="otherFrom" id="otherFrom" class="datePicker">
+                            </div>
+                            <div>
+                                <label for="otherTo" class="label to">To</label>
+                                <input type="text" name="otherTo" id="otherTo" class="datePicker">
+                            </div>
+                            <div class="radioset">
+                                <p>Did you graduate?</p>
+                                <label for="otherGraduate1">Yes</label>
+                                <input type="radio" name="otherGraduate" id="otherGraduate1">
+                                <label for="otherGraduate2">No</label>
+                                <input type="radio" name="otherGraduate" id="otherGraduate2">
+                            </div>
+                    </fieldset>
+                    <input type="button" value="Validate" id="tab2submit" />
+				</form>			
+			
+			</div>
+			<div id="other" class="tab">
+				<form id="testForm3">
+                    
+					<fieldset>
+						<p>Please list up to 3 references</p>
+                        <input type="button" value="Toggle More" id="showMore2" />
+                        <div id="reference1">
+                            <h3>Reference 1</h3>
+                            <div>
+                                <label for="refName1" class="label">Full Name</label>
+                                <input name="refName" type="text" id="refName1" size="36" required title="Please enter their name.">
+                            </div>
+                            <div>
+                                <label for="refRelationship1" class="label">Relationship</label>
+                                <input name="refRelationship" type="text" id="refRelationship1" size="36" required title="What is your relationship?" >
+                            </div>
+                            <div>
+                                <label for="refCompany1" class="label">Company</label>
+                                <input name="refCompany" type="text" id="refCompany1" size="36">
+                            </div>
+                            <div>
+                                <label for="refPhone1" class="label">Phone Number</label>
+                                <input name="refPhone" type="text" id="refPhone1" size="36" required title="Please enter a phone number." maxlength="15">
+                            </div>
+                        </div>
+                        
+                        <div id="reference2">
+                            <h3>Reference 2</h3>
+                            <div>
+                                <label for="refName2" class="label">Full Name</label>
+                                <input name="refName" type="text" id="refName2" size="36" >
+                            </div>
+                            <div>
+                                <label for="refRelationship2" class="label">Relationship</label>
+                                <input name="refRelationship" type="text" id="refRelationship2" size="36" required title="What is your relationship?">
+                            </div>
+                            <div>
+                                <label for="refCompany2" class="label">Company</label>
+                                <input name="refCompany2" type="text" id="refCompany2" size="36">
+                            </div>
+                            <div>
+                                <label for="refPhone2" class="label">Phone Number</label>
+                                <input name="refPhone" type="text" id="refPhone2" size="36" maxlength="15">
+                            </div>
+                        </div>
+                        <div id="reference3">
+                            <h3>Reference 3</h3>
+                            <div>
+                                <label for="refName3" class="label">Full Name</label>
+                                <input name="refName" type="text" id="refName3" size="36">
+                            </div>
+                            <div>
+                                <label for="refRelationship3" class="label">Relationship</label>
+                                <input name="refRelationship" type="text" id="refRelationship3" size="36">
+                            </div>
+                            <div>
+                                <label for="refCompany3" class="label">Company</label>
+                                <input name="refCompany" type="text" id="refCompany3" size="36">
+                            </div>
+                            <div>
+                                <label for="refPhone3" class="label">Phone Number</label>
+                                <input name="refPhone" type="text" id="refPhone3" size="36" maxlength="15">
+                            </div>
+                        </div>
+                        
+                        <div class="radioset">
+                            <p>Have you ever served in the military</p>
+                            <label for="military1">Yes</label>
+                            <input type="radio" name="worked" id="military1" required title="Please select an option">
+                            <label for="military2">No</label>
+                            <input type="radio" name="worked" id="military2" required title="Please select an option">
+                        </div>
+                        
+                        <div id="militaryService">
+                            <div>
+                                <label for="branch" class="label">Branch</label>
+                                <input name="branch" type="text" id="branch" size="36">
+                            </div>
+                            <div>
+                                <label for="miltaryFrom" class="label">From</label>
+                                <input name="miltaryFrom" type="text" id="miltaryFrom"class="datePicker">
+                            </div>
+                            <div>
+                                <label for="miltaryTo" class="label">To</label>
+                                <input name="miltaryTo" type="text" id="miltaryTo" class="datePicker">
+                            </div>
+                            <div>
+                                <label for="rank" class="label">Rank at Discharge</label>
+                                <input name="rank" type="text" id="rank" size="36">
+                            </div>
+                            <div class="radioset">
+                                <p>Where you honorably discharged?</p>
+                                <label for="discharged1">Yes</label>
+                                <input type="radio" name="discharged" id="discharged1">
+                                <label for="discharged2">No</label>
+                                <input type="radio" name="discharged" id="discharged2">
+                                
+                            </div>
+                        </div>
+                        
+					</fieldset>
+					<input type="button" value="Validate" id="tab3submit" />
+				</form>			
+			</div>
+			<div id="submit" class="tab">
+				<form id="testForm4">
+					<p>Your application is finished! Now all you need to do is hit Submit.</p>
+					<input type="button" value="Submit" id="tab4submit" />
+				</form>			
+			</div>
+		</div>
+	
+	
+		<div id="confirm">
+			<h3>Are you sure?</h3>
+			<p>By submitting this form, you are certifying that the information you provided is true and complete. </p>
+		</div>
+	
+
+	<footer>
+        <img src="images/footer.PNG" class="center">
+    </footer>
+	</body>
+</html>
